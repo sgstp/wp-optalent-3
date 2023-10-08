@@ -1,5 +1,7 @@
 <?php
 
+require_once('ACF.php');
+require_once('BootstrapNavbarWalker.php');
 
 /* ---------------------------------------------------------------------------------------------
    THEME SETUP
@@ -53,10 +55,13 @@ if ( ! function_exists( 'baskerville_setup' ) ) {
 		if ( ! isset( $content_width ) ) $content_width = 676;
 
 		// Add nav menu
-		register_nav_menu( 'primary', __( 'Primary Menu', 'baskerville' ) );
+//		register_nav_menu( 'primary', __( 'Primary Menu', 'baskerville' ) );
+        register_nav_menu('principal', 'Menu principal');
+
 		
 		// Make the theme translation ready
 		load_theme_textdomain( 'baskerville', get_template_directory() . '/languages' );
+		load_theme_textdomain( 'optalent', get_template_directory().'/languages/');
 		
 	}
 	add_action( 'after_setup_theme', 'baskerville_setup' );
@@ -682,3 +687,29 @@ if ( ! function_exists( 'baskerville_block_editor_styles' ) ) :
 	}
 	add_action( 'enqueue_block_editor_assets', 'baskerville_block_editor_styles', 1 );
 endif;
+
+
+/**  SGS **/
+
+function get_lien($nameorid){
+	if(!function_exists('pll_the_languages')) return site_url($nameorid);
+
+	$post_id = false;
+	if(is_numeric($nameorid)){
+		$post_id = $nameorid;
+	}else{
+		$post = get_page_by_path($nameorid, OBJECT, array('post','page','dossier','document'));
+		if($post){
+			$post_id = $post->ID;
+		}
+	}
+	if($post_id){
+		$post_id_lang = pll_get_post($post_id);
+		if($post_id_lang){
+			return get_permalink($post_id_lang);
+		}
+		return get_permalink($post_id);
+	}else{
+		return site_url($nameorid);
+	}
+}

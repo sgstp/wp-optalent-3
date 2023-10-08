@@ -1,0 +1,201 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Optalent V2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-11-12 23:17+0000\n"
+"PO-Revision-Date: 2021-02-26 00:09+0000\n"
+"Last-Translator: \n"
+"Language-Team: English (Canada)\n"
+"Language: en_CA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.4; wp-5.5.3"
+
+#: front-page.php:162
+msgid "Abonnez-vous à nos infolettres"
+msgstr "Subscribe to our newsletters"
+
+#: front-page.php:167
+msgid "Candidat"
+msgstr "Candidate"
+
+#: PageTemplateEmployeur.php:81
+msgid "Ce que nous offrons"
+msgstr "Our services include"
+
+#: parts/details-emploi.php:48
+msgid "Code postal"
+msgstr "Code postal"
+
+#: PageTemplatePageEmploisOfferts.php:31
+msgid "Comblé"
+msgstr "Filled"
+
+#: PageTemplateEmployeur.php:61
+msgid ""
+"Communiquez avec nous pour en savoir plus sur nos candidats en vedettes : "
+msgstr "Contact us to find out more about our featured candidates:"
+
+#: footer.php:5
+msgid "Contactez-nous maintenant"
+msgstr "Contact us now"
+
+#: parts/details-emploi.php:73
+msgid "Description"
+msgstr "Description"
+
+#: PageTemplateEmployeur.php:45
+msgid "Découvrez nos candidats vedettes pré-qualifiés :"
+msgstr "See our pre-qualified featured candidates:"
+
+#: front-page.php:172
+msgid "Employeurs"
+msgstr "Employers"
+
+#: parts/candidats-vedettes.php:19
+msgid "En savoir plus"
+msgstr "More info"
+
+#: parts/candidats-vedettes.php:36
+msgid "est le/la recruteur(e) attitré(e) à ce dossier."
+msgstr "is the recruiter assigned to this candidate."
+
+#: parts/details-emploi.php:56
+msgid "Expérience requise"
+msgstr "Required experience"
+
+#: PageTemplatePageEmploisOfferts.php:8
+msgid "Filtrer par lieux"
+msgstr ""
+
+#: PageTemplatePageEmploisOfferts.php:9
+msgid "Filtrer par types d’emplois"
+msgstr ""
+
+#: parts/candidats-vedettes.php:37
+msgid ""
+"Il/elle communiquera avec vous rapidement afin de vous fournir l'information "
+"pertinente sur ce candidat ou cette candidate."
+msgstr ""
+"He/she will contact you quickly to provide you with relevant information "
+"about this candidate."
+
+#: parts/details-emploi.php:40
+msgid "Industrie"
+msgstr "Industry"
+
+#: parts/details-emploi.php:28
+msgid "Information"
+msgstr "Information"
+
+#: PageTemplatePageEmploisOfferts.php:98
+msgid "Lieu"
+msgstr "Location"
+
+#: front-page.php:169 front-page.php:174
+msgid "M'abonner"
+msgstr "Subscribe"
+
+#: parts/candidats-vedettes.php:47 parts/candidats-vedettes.php:48
+msgid "Nom de la compagnie que vous représentez"
+msgstr "Your company"
+
+#: front-page.php:108
+msgid "Nos candidats vedettes"
+msgstr "Our featured candidates"
+
+#: front-page.php:184
+msgid "Nos clients"
+msgstr "Our clients"
+
+#: front-page.php:122
+msgid "Nouveaux postes"
+msgstr "New jobs"
+
+#: PageTemplatePageEmploisOfferts.php:96
+msgid "Poste"
+msgstr "Job"
+
+#: front-page.php:144
+msgid "Postuler"
+msgstr "Apply"
+
+#: parts/details-emploi.php:22
+msgid "Postuler maintenant"
+msgstr "Apply now"
+
+#: footer.php:6
+msgid "pour une évaluation de vos besoins"
+msgstr "for an assessment of your needs"
+
+#: parts/details-emploi.php:52
+msgid "Province"
+msgstr "State"
+
+#: parts/details-emploi.php:17
+msgid "Publié le"
+msgstr "Posted on"
+
+#: front-page.php:173
+msgid "Recevez en premier les nouveaux candidats vedettes"
+msgstr "Receive our featured candidates first"
+
+#: front-page.php:161
+msgid "Restez informés"
+msgstr "Stay informed"
+
+#: parts/details-emploi.php:60 PageTemplatePageEmploisOfferts.php:99
+msgid "Salaire"
+msgstr "Salary"
+
+#: parts/candidats-vedettes.php:56 parts/candidats-vedettes.php:57
+msgid "Soumettre"
+msgstr "Submit"
+
+#: front-page.php:168
+msgid "Soyez les premiers à recevoir nos offres d’emplois"
+msgstr "Be the first to receive our job offers"
+
+#: PageTemplatePageEmploisOfferts.php:97
+msgid "Type d'emploi"
+msgstr ""
+
+#: parts/details-emploi.php:44
+msgid "Ville"
+msgstr "City"
+
+#: PageTemplateEmployeur.php:55
+msgid "Voir nos candidats vedettes"
+msgstr "See our featured candidates"
+
+#: parts/details-emploi.php:93 front-page.php:155
+msgid "Voir tous les emplois"
+msgstr "View all jobs"
+
+#: parts/candidats-vedettes.php:50 parts/candidats-vedettes.php:51
+msgid "Votre courriel"
+msgstr "Your email"
+
+#: parts/candidats-vedettes.php:44 parts/candidats-vedettes.php:45
+msgid "Votre nom"
+msgstr "Your name"
+
+#: parts/candidats-vedettes.php:53 parts/candidats-vedettes.php:54
+msgid "Votre numéro de téléphone"
+msgstr "Your phone number"
+
+#: front-page.php:22
+msgid "Voyez nos candidats vedettes"
+msgstr "See our featured candidates"
+
+#: PageTemplateEmployeur.php:87
+msgid "Éléments supplémentaires"
+msgstr "Additional Services"

@@ -4,7 +4,7 @@
 										
 	<div class="section-inner">
 	
-		<div class="content fleft">
+		<div class="content center">
 												        
 			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 						
@@ -145,6 +145,36 @@
 					<?php endif; ?>
 														                                    	    
 					<div class="post-content">
+
+                        <?php if ( ($cat = get_the_category()) && ($cat[0]->slug == 'poste' || $cat[0]->slug == 'poste-en')) : ?>
+                            <a class="btn btn-optalent-jaune" href="https://optalent.zohorecruit.com/recruit/PortalForm.na?digest=PUdcCcZtRHqzIUa6RUO8znGAUnkE7bVo.a85bxdBEmQ-&iframe=true&jobid=<?= the_field('idJob') ?>" target="_blank"><?= __('Postuler maintenant', 'optalent') ?></a>
+                            <table class="supplement-emploi">
+                                <tr>
+                                    <th><?= __('Industrie', 'optalent') ?></th>
+                                    <td><?= the_field('industrie') ?></td>
+                                </tr>
+                                <tr>
+                                    <th><?= __('Ville', 'optalent') ?></th>
+                                    <td><?= the_field('ville') ?></td>
+                                </tr>
+                                <tr>
+                                    <th><?= __('Code postal', 'optalent') ?></th>
+                                    <td><?= the_field('code_postal') ?></td>
+                                </tr>
+                                <tr>
+                                    <th><?= __('Province', 'optalent') ?></th>
+                                    <td><?= the_field('province') ?></td>
+                                </tr>
+                                <tr>
+                                    <th><?= __('Expérience requise', 'optalent') ?></th>
+                                    <td><?= the_field('experience_requise') ?></td>
+                                </tr>
+                                <tr>
+                                    <th><?= __('Salaire', 'optalent') ?></th>
+                                    <td><?= the_field('salaire') ?></td>
+                                </tr>
+                            </table>
+                        <?php endif; ?>
 						
 						<?php 
 						if ( isset( $content_parts ) && $content_parts && ( $format == 'link' || $format == 'quote' || $format == 'video' ) ) { 
@@ -160,103 +190,12 @@
 						<div class="clear"></div>
 									        
 					</div><!-- .post-content -->
-					            					
-					<div class="post-meta-container">
-						
-						<div class="post-author">
-						
-							<div class="post-author-content">
-							
-								<h4><?php the_author_meta( 'display_name' ); ?></h4>
-								
-								<?php 
-								
-								if ( get_the_author_meta( 'description' ) ) { 
-									echo wpautop( get_the_author_meta( 'description' ) );
-								}
-
-								?>
-								
-								<div class="author-links">
-									
-									<a class="author-link-posts" href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>"><?php _e( 'Author archive', 'baskerville' ); ?></a>
-									
-									<?php 
-									
-									$author_url = get_the_author_meta( 'user_url' ); 
-																									
-									if ( ! empty( $author_url ) ) : ?>
-									
-										<a class="author-link-website" href="<?php echo esc_url( $author_url ); ?>"><?php _e( 'Author website', 'baskerville' ); ?></a>
-										
-									<?php endif; ?>
-									
-								</div><!-- .author-links -->
-							
-							</div><!-- .post-author-content -->
-						
-						</div><!-- .post-author -->
-						
-						<div class="post-meta">
-						
-							<p class="post-date"><?php the_time( get_option( 'date_format' ) ); ?></p>
-							
-							<?php if ( function_exists( 'zilla_likes' ) ) zilla_likes(); ?>
-							
-							<p class="post-categories"><?php the_category( ', ' ); ?></p>
-							
-							<?php if ( has_tag() ) : ?>
-								<p class="post-tags"><?php the_tags( '', ', ' ); ?></p>
-							<?php endif; ?>
-							
-							<div class="clear"></div>
-							
-							<div class="post-nav">
-							
-								<?php
-
-								$prev_post = get_previous_post();
-								$next_post = get_next_post();
-
-								if ( $prev_post ) :
-									?>
-								
-									<a class="post-nav-prev" href="<?php the_permalink( $prev_post->ID ); ?>"><?php _e( 'Previous post', 'baskerville' ); ?></a>
-							
-									<?php 
-								endif; 
-
-								if ( $next_post ) :
-									?>
-									
-									<a class="post-nav-next" href="<?php the_permalink( $next_post->ID ); ?>"><?php _e( 'Next post', 'baskerville' ); ?></a>
-							
-									<?php 
-								endif; 
-								
-								edit_post_link( __( 'Edit post', 'baskerville' ) ); 
-								
-								?>
-									
-								<div class="clear"></div>
-							
-							</div><!-- .post-nav -->
-						
-						</div><!-- .post-meta -->
-						
-						<div class="clear"></div>
-							
-					</div><!-- .post-meta-container -->
-																		
-					<?php comments_template( '', true ); ?>
 												                        
 				<?php endwhile; endif; ?>
 		
 			</div><!-- .post -->
 		
 		</div><!-- .content -->
-		
-		<?php get_sidebar(); ?>
 		
 		<div class="clear"></div>
 		

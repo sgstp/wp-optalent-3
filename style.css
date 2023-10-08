@@ -1,11 +1,8 @@
 /*---------------------------------------------------------------------------------
 
-	Theme Name: Baskerville
-    Text Domain: baskerville
+	Theme Name: Optalent V3
+    Text Domain: optalent
 	Version: 2.2.2
-	Description: Baskerville is a beautiful, responsive and retina-ready masonry theme for hoarders. It's the perfect way to showcase your posts, videos, images and galleries, and share your favorite quotes and links. Features responsive design, retina-ready assets, full-width header image, Block Editor support, support for all post formats, custom logo upload, custom widgets for Flickr and Dribbble, four page templates (including a contributors template), editor styling, like functionality via the ZillaLikes plugin and translation-ready code. Demo: https://andersnoren.se/themes/baskerville/
-	Tags: blog, three-columns, right-sidebar, custom-colors, custom-header, custom-menu, editor-style, featured-images, footer-widgets, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, portfolio, grid-layout, block-styles, wide-blocks
-	Author: Anders Norén
 	Author URI: https://andersnoren.se
 	Theme URI: https://andersnoren.se/teman/baskerville-wordpress-theme/
 	License: GNU General Public License version 2.0
@@ -44,7 +41,7 @@
 
 html, body { margin:0; padding:0;}
 
-h1, h2, h3, h4, h5, h6, p, blockquote, address, big, cite, code, em, font, img, small, strike, sub, sup, li, ol, ul, fieldset, form, label, legend, button, table, caption, tr, th, td {
+/*h1, h2, h3, h4, h5, h6, p, blockquote, address, big, cite, code, em, font, img, small, strike, sub, sup, li, ol, ul, fieldset, form, label, legend, button, table, caption, tr, th, td {
 	margin:0;
 	padding:0;
 	border:0;
@@ -54,7 +51,7 @@ h1, h2, h3, h4, h5, h6, p, blockquote, address, big, cite, code, em, font, img, 
 	line-height:1;
 	font-family:inherit;
 	text-align:left;
-}
+}*/
 
 table {
 	border-collapse:collapse;
@@ -101,20 +98,20 @@ body {
 	background: #f1f1f1;
 	color: #444;
 	font-family: Roboto, sans-serif;
-	font-size: 18px;
+	/*font-size: 18px;*/
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
 
-body a {
-	color: #13C4A5;
-	text-decoration: none;
-}
+/*body a {*/
+/*	color: #13C4A5;*/
+/*	text-decoration: none;*/
+/*}*/
 
-body a:hover {
-	color: #13C4A5;
-	text-decoration: none;
-}
+/*body a:hover {*/
+/*	color: #13C4A5;*/
+/*	text-decoration: none;*/
+/*}*/
 
 * {  
 	-webkit-box-sizing: border-box; 
@@ -400,11 +397,15 @@ body a {
 	font-family: 'Roboto Slab', sans-serif;
 	font-size: 0.9em; 
 	text-align: center;
+	margin: 0;
 }
 
-.main-menu li { position: relative; }
+.main-menu li {
+	/*position: relative; */
+	display: inline-block;
+}
 
-.main-menu > li { float: left; }
+/*.main-menu > li { float: left; }*/
 
 .main-menu > li:before {
 	content: "/";
@@ -3181,3 +3182,728 @@ img#wpstats { display: none; } /* Silly WordPress stats */
 	
 	
 }
+
+
+/**   ------  SGS -------  **/
+
+/* OUVERIDE */
+
+.single .post-content {
+	padding-top: 5%;
+}
+
+.navbar {
+	padding: 0 0 0 0;
+	background-color: #fff;
+}
+
+.navbar-brand {
+	padding: 0 0 0 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	/*font-variant: small-caps;*/
+	text-transform: uppercase;
+	font-size: 1em;
+	color: #000000;
+}
+
+@media (max-width: 1200px) {
+	.navbar-light .navbar-nav .nav-link {
+		font-size: 0.8em;
+	}
+}
+
+.navbar-light .navbar-nav .active {
+	font-weight: bold;
+}
+
+body.page-template-PageTemplateAccueil,
+body.page-template-PageTemplateCandidat,
+body.page-template-PageTemplateElectricalTraining,
+body.page-template-PageTemplateEmployeur,
+body.page-template-PageTemplateNotreEquipe
+{
+	/*font-family: "Open Sans";*/
+	font-family: "Roboto";
+	background-color: #000;
+	overflow-x: hidden;
+	color: #fff;
+	font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+	font-weight: 300;
+	text-transform: uppercase;
+}
+
+/* --- */
+
+.titre {
+	font-size: 3.5em;
+	text-transform: uppercase;
+}
+
+@media (max-width: 576px) {
+	.titre {
+		font-size: 2.8em;
+	}
+}
+
+
+.separateur-droit {
+	border-right: solid #fff 1px;
+}
+
+.btn-optalent {
+	width: 180px;
+	height: 40px;
+	border: 1px solid #0091ff;
+	background-color: rgba(255, 255, 255, 0.65);
+	border-radius: 0px;
+	text-transform: uppercase;
+	color: #0091ff;
+	font-weight: bold;
+}
+
+.btn-optalent.btn-optalent-transparent {
+	background-color: transparent;
+}
+
+.btn-optalent:hover {
+	color: #0091ff;
+	text-decoration: none;
+}
+
+.btn-optalent-jaune {
+	background-color: #f8d602;
+	height: 40px;
+	border-radius: 0px;
+	text-transform: uppercase;
+	color: #315da8;
+	font-weight: bold;
+}
+.btn-optalent-bleu {
+	color: #fff;
+	background-color: #305baa;
+}
+.btn-optalent-bleu:hover {
+	color: #d2d2d2;;
+}
+
+
+.supplement-emploi {
+	margin-bottom: 5em;
+	margin-top: 3em;
+}
+
+
+
+#entete {
+	background-size: cover;
+	/*background-repeat: no-repeat;*/
+	/*background-attachment: fixed;*/
+	background-position: center;
+}
+
+
+#entete h1 {
+	text-transform: uppercase;
+	padding-top: 3em;
+	font-size: 4em;
+	margin-left: -0.1em;
+}
+
+@media (max-width: 576px) {
+	#entete h1 {
+		font-size: 2.8em;
+	}
+}
+
+#entete .description {
+	font-size: 1.2em;
+	padding-top: 2em;
+}
+
+#entete .description ul {
+	font-size: 0.9em;
+}
+
+
+
+#encart {
+	position: absolute;
+	width: 100%;
+}
+
+#encart .row>div {
+	background-color: black;
+	border: 1px solid white;
+	top: -50px;
+	height: 100px;
+	color: #0091ff;
+	text-align: center;
+	padding: 0.6em;
+	font-size: 1.3em;
+}
+
+
+
+#contactez-nous {
+	min-height: 300px;
+	background-color: #0091ff;
+	color: #fff;
+}
+
+#contactez-nous .coordonnees {
+	padding-top: 4em;
+	text-align: center;
+}
+
+#contactez-nous .coordonnees h4 {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+#contactez-nous .coordonnees .facebook {
+	color: #305baa;
+}
+
+#contactez-nous .coordonnees .linkedin {
+	/*color: #0077b5;*/
+	color: #305baa;
+}
+
+
+
+#pied {
+	min-height: 138px;
+	background-color: #fff;
+	color: #000;
+	font-size: 0.8rem;
+}
+
+#pied a {
+	color: #000;
+}
+
+#pied .menu-footer {
+	padding-top: 3rem;
+}
+#pied .menu-footer ul {
+	display: block;
+	list-style-type: none;
+	text-transform: uppercase;
+	padding-left: 0rem;
+}
+#pied .menu-footer>ul>li {
+	/*width: 33%;*/
+	float: left;
+	padding-bottom: 0.5rem;
+	padding-right: 1em;
+}
+#pied .menu-footer>ul>li>ul * {
+	text-transform: none;
+	font-size: 0.7rem;
+	font-weight: lighter;
+	padding-left: 0.5rem;
+	padding-top: 0.1rem;
+}
+
+
+/**** PAGE ACCUEIL ***/
+
+
+.page-template-PageTemplateAccueil #entete {
+	background-image: url('images/entete_web.jpg');
+	min-height: 560px;
+	background-position: bottom;
+	text-align: center;
+}
+.page-template-PageTemplateAccueil #entete h1 {
+	padding-top: 1.5em;
+}
+.page-template-PageTemplateAccueil #entete h2 {
+	color: #fdd600;
+	font-size: 1.5em;
+	letter-spacing: 0.05em;
+	text-transform: none;
+	font-weight: 500;
+}
+.page-template-PageTemplateAccueil #entete h2 a {
+	color: inherit;
+}
+
+.page-template-PageTemplateAccueil #content {
+	padding-top: 2em;
+	padding-bottom: 2em;
+	text-align: center;
+}
+.page-template-PageTemplateAccueil #entete .container, .page-template-PageTemplateAccueil #content .container {
+	max-width: 800px;
+}
+.page-template-PageTemplateAccueil #content.container-fluid {
+	background-color: #191919;
+}
+
+
+.page-template-PageTemplateAccueil #emplois {
+	/*border-top: solid #fff 1px;*/
+	border-bottom: solid #fff 1px;
+	position: relative;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+.page-template-PageTemplateAccueil #emplois ul {
+	list-style: none;
+	padding-inline-start: 0.2em;
+	font-size: 0.9em;
+}
+
+.page-template-PageTemplateAccueil #emplois>div>div {
+	border-right: #fff solid 1px;
+}
+
+.page-template-PageTemplateAccueil #emplois .figure {
+	position: relative;
+	/*margin-bottom: 7em;*/
+	margin-bottom: 3em;
+	display: block;
+}
+
+.page-template-PageTemplateAccueil #emplois .figure img {
+	width: 100%;
+}
+
+.page-template-PageTemplateAccueil #emplois .figure-caption {
+	color: #fff;
+	line-height: 1;
+	position: absolute;
+	padding-left: 0.2em;
+	width: 100%;
+	top: -3.1em;
+}
+
+.page-template-PageTemplateAccueil #emplois .max-row-width {
+	max-width: 570px;
+}
+
+
+
+.page-template-PageTemplateAccueil #candidats-vedettes {
+	background-image: url('images/fond-bureau.png');
+}
+.page-template-PageTemplateAccueil #candidats-vedettes .container {
+	padding-top: 50px;
+}
+
+.page-template-PageTemplateAccueil #clients {
+	/*min-height: 230px;*/
+	background-color: #fff;
+	color: #000;
+}
+.page-template-PageTemplateAccueil #clients .container {
+	padding-top: 50px;
+}
+
+
+
+.page-template-PageTemplateAccueil #nouveaux-postes-restez-informes {
+	background-image: url('images/fond-bureau.png');
+	padding-bottom: 4em;
+	border-bottom: solid #fff 1px;
+}
+
+.page-template-PageTemplateAccueil #nouveaux-postes-restez-informes .container {
+	padding-top: 50px;
+}
+
+.page-template-PageTemplateAccueil #nouveaux-postes-restez-informes .box-nouveau-poste {
+	background-image: url('images/box-nouveau-poste.png');
+	background-repeat: no-repeat;
+	height: 603px;
+	width: 338px;
+	position: relative;
+	color: #000;
+	margin-top: 2em;
+}
+
+.page-template-PageTemplateAccueil #nouveaux-postes-restez-informes .box-nouveau-poste .photo {
+	position: absolute;
+	top: 80px;
+	left: 75px;
+}
+
+.page-template-PageTemplateAccueil #nouveaux-postes-restez-informes .box-nouveau-poste .nom {
+	position: absolute;
+	/*top: 300px;*/
+	top: 80px;
+	left: 50px;
+	font-weight: bold;
+	font-size: 1.2em;
+	width: 280px;
+}
+
+.page-template-PageTemplateAccueil #nouveaux-postes-restez-informes .box-nouveau-poste .entreprise {
+	position: absolute;
+	top: 340px;
+	left: 50px;
+	font-weight: bold;
+}
+
+.page-template-PageTemplateAccueil #nouveaux-postes-restez-informes .box-nouveau-poste .description {
+	position: absolute;
+	/*top: 370px;*/
+	top: 170px;
+	left: 50px;
+	width: 280px;
+}
+
+.page-template-PageTemplateAccueil #nouveaux-postes-restez-informes .box-nouveau-poste .description ul {
+	padding-inline-start: 2em;
+}
+
+.page-template-PageTemplateAccueil #nouveaux-postes-restez-informes .box-nouveau-poste .btn {
+	position: absolute;
+	top: 540px;
+	left: 80px;
+}
+
+.page-template-PageTemplateAccueil #nouveaux-postes-restez-informes .restez-informes {
+	padding-top: 6em;
+}
+
+.page-template-PageTemplateAccueil #nouveaux-postes-restez-informes .restez-informes-abonnement {
+	padding-top: 3em;
+}
+
+.page-template-PageTemplateAccueil #nouveaux-postes-restez-informes .restez-informes-abonnement h4 {
+	font-weight: bold;
+}
+
+.page-template-PageTemplateAccueil #nouveaux-postes-restez-informes .restez-informes-abonnement .description {
+	font-size: 0.9em;
+	padding-bottom: 1em;
+}
+
+
+/** TEMPLATE PAGE EMPLOYEUR **/
+
+.page-template-PageTemplateEmployeur #entete {
+	background-image: url('images/fond-travailleur-machine.png');
+	min-height: 810px;
+	border-bottom: #fff solid 1px;
+}
+
+.page-template-PageTemplateEmployeur #candidats-vedettes .container {
+	padding-top: 100px;
+}
+.page-template-PageTemplateEmployeur #candidats-vedettes .titre {
+	font-size: 2em;
+}
+
+.page-template-PageTemplateEmployeur #candidats-vedettes .communiquez {
+	font-size: 2em;
+	padding-top: 2em;
+	padding-bottom: 100px;
+}
+.page-template-PageTemplateEmployeur #candidats-vedettes .communiquez .noTel {
+	color: #0091ff;
+	white-space: nowap;
+}
+
+.page-template-PageTemplateEmployeur #encart.offre .row>div {
+	top: -75px;
+	height: 150px;
+	font-size: 1.1em;
+}
+
+.page-template-PageTemplateEmployeur #encart.offre .fas {
+	color: #fff;
+	padding-right: 0.4em;
+}
+
+.page-template-PageTemplateEmployeur #offre {
+	background-image: url('images/fond-batiment-haut.png');
+	background-size: cover;
+	background-position: center;
+	min-height: 810px;
+	border-bottom: #fff solid 1px;
+}
+.page-template-PageTemplateEmployeur #offre .container {
+	padding-top: 150px;
+}
+.page-template-PageTemplateEmployeur #offre .titre {
+	padding-bottom: 0.6em;
+}
+.page-template-PageTemplateEmployeur #offre ul,
+.page-template-PageTemplateEmployeur #offre .sous-text {
+	list-style: none;
+	padding-left: 0.5em;
+	line-height: 2em;
+	font-size: 1.1em;
+}
+.page-template-PageTemplateEmployeur #offre .sous-text {
+	text-align: center;
+	padding-top: 5em;
+}
+
+
+
+
+
+
+/** TEMPLATE PAGE CANDIDAT **/
+
+
+
+.page-template-PageTemplateCandidat #entete {
+	background-image: url('images/font-travailleur-machine2.png');
+	min-height: 810px;
+	border-bottom: #fff solid 1px;
+}
+
+.page-template-PageTemplateCandidat #candidats-vedettes {
+	background-size: initial;
+	background-position: initial;
+	min-height: initial;
+	padding-bottom: 3em;
+}
+
+/** TEMPLATE PAGE ELECTRICAL TRAINING **/
+
+.page-template-PageTemplateElectricalTraining #entete {
+	background-image: url('images/fond-electrical-training.png');
+	min-height: 810px;
+	border-bottom: #fff solid 1px;
+}
+.page-template-PageTemplateElectricalTraining #page {
+	/*background-image: url('images/fond-electrical-training-2.png');*/
+	background-color: #000;
+	background-size: cover;
+	background-position: center;
+	min-height: 810px;
+	border-bottom: #fff solid 1px;
+	color: #fff;
+}
+
+
+
+/** TEMPLATE PAGE EMPLOIS OFFERTS **/
+
+
+.page-template-PageTemplateEmploisOfferts #emplois-offerts {
+	padding-top: 3em;
+}
+.page-template-PageTemplateEmploisOfferts #emplois-offerts h1 {
+	font-weight: initial;
+}
+.page-template-PageTemplateEmploisOfferts #emplois-offerts table {
+	background-color: #fff;
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+.page-template-PageTemplateEmploisOfferts #emplois-offerts td.comble {
+	font-size: 0.8em;
+	font-weight: bold;
+	color: red;
+	vertical-align: middle;
+}
+
+
+
+/** TEMPLATE PAGE NOTRE-EQUIPE **/
+.page-template-PageTemplateNotreEquipe #notre-equipe {
+	padding-top: 2em;
+	padding-bottom: 4em;
+}
+.page-template-PageTemplateNotreEquipe #notre-equipe a {
+	color: inherit;
+}
+.page-template-PageTemplateNotreEquipe #notre-equipe .card-deck {
+	justify-content: center;
+	padding-bottom: 1em;
+}
+.page-template-PageTemplateNotreEquipe #notre-equipe .card {
+	max-width: 250px;
+}
+.page-template-PageTemplateNotreEquipe #notre-equipe .card-body {
+	text-align: center;
+	color: #315ba8;
+}
+.page-template-PageTemplateNotreEquipe #notre-equipe .card-body p {
+	margin: 0;
+}
+.page-template-PageTemplateNotreEquipe #notre-equipe .card-body .courriel {
+	position: absolute;
+	margin-top: -1em;
+	right: 0.2em;
+	font-size: 1.2em;
+}
+.page-template-PageTemplateNotreEquipe #notre-equipe .card-body .info {
+	position: absolute;
+	left: 0.5em;
+	top: 0.5em;
+	cursor: pointer;
+}
+.page-template-PageTemplateNotreEquipe #notre-equipe .card-body .nom {
+	color: #000;
+	font-weight: bold;
+}
+.page-template-PageTemplateNotreEquipe #notre-equipe .card-body .poste {
+	font-size: 0.8em;
+}
+.page-template-PageTemplateNotreEquipe #notre-equipe .card-body .poste2 {
+	font-size: 0.7em;
+}
+.page-template-PageTemplateNotreEquipe #modalDetailEmploye .modal-content {
+	background-color: #315ba8;
+	color: #fff;
+	text-align: justify;
+}
+.page-template-PageTemplateNotreEquipe #modalDetailEmploye .modal-header {
+	border: 0;
+	font-weight: bold;
+	font-size: 1.3em;
+}
+.page-template-PageTemplateNotreEquipe #modalDetailEmploye .modal-header .fermer {
+	cursor: pointer;
+}
+
+
+
+/** TEMPLATE PAGE SINGLE PAGE **/
+
+#page {
+	padding-top: 3em;
+	background-color: #000;
+	color: #fff;
+	text-align: justify;
+	text-justify: inter-word;
+}
+#page h1 {
+	font-weight: initial;
+}
+
+
+
+
+
+/** PARTS / DETAIL EMPLOI **/
+
+
+#details-emploi {
+	padding-top: 3em;
+	background-color: #000;
+	color: #fff;
+}
+#details-emploi h1 {
+	font-weight: initial;
+}
+#details-emploi h2 {
+	padding-top: 1em;
+	padding-bottom: 0.25em;
+}
+#details-emploi .container-fluid.fond-blanc {
+	background: linear-gradient(90deg, #000 50%, #fff 50%);
+}
+#details-emploi .container-fluid.fond-blanc .container .row .col {
+	margin-left: 15px;
+	background-color: #fff;
+	color: #000;
+	padding: 3em;
+}
+#details-emploi .btn-optalent-jaune {
+	margin-top: 3em;
+	margin-bottom: 1em;
+}
+#details-emploi th,
+#details-emploi td {
+	font-weight: initial;
+	padding: 0.5em;
+}
+#details-emploi th {
+	text-transform: uppercase;
+	border-right: solid 1px #c4d2df;
+	padding-right: 2em;
+}
+#details-emploi td {
+	padding-left: 1em;
+}
+
+/** PARTS / CANDIDATS VEDETTES **/
+
+#candidats-vedettes {
+	background-size: cover;
+	background-position: center;
+	min-height: 991px;
+	border-bottom: solid #fff 1px;
+}
+#candidats-vedettes .box-candidat-vedette {
+	background-image: url('images/box-candidat-vedette.png');
+	background-repeat: no-repeat;
+	height: 603px;
+	width: 338px;
+	position: relative;
+	color: #000;
+	margin-top: 2em;
+}
+#candidats-vedettes .box-candidat-vedette .photo {
+	position: absolute;
+	top: 80px;
+	left: 75px;
+}
+#candidats-vedettes .box-candidat-vedette .nom {
+	position: absolute;
+	top: 300px;
+	left: 50px;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+#candidats-vedettes .box-candidat-vedette .metier {
+	position: absolute;
+	top: 340px;
+	left: 50px;
+	font-weight: bold;
+}
+#candidats-vedettes .box-candidat-vedette .description {
+	position: absolute;
+	top: 370px;
+	left: 50px;
+}
+#candidats-vedettes .box-candidat-vedette .description ul {
+	padding-inline-start: 1.2em;
+}
+#candidats-vedettes .box-candidat-vedette .btn {
+	position: absolute;
+	top: 540px;
+	left: 80px;
+}
+@media (min-width: 576px) {
+	#modal-candidat-informations-supplementaire .modal-dialog {
+		max-width: 80%;
+	}
+}
+@media (min-width: 992px) {
+	#modal-candidat-informations-supplementaire .modal-dialog {
+		max-width: 70%;
+	}
+}
+@media (min-width: 1200px) {
+	#modal-candidat-informations-supplementaire .modal-dialog {
+		max-width: 60%;
+	}
+}
+#modal-candidat-informations-supplementaire .modal-content {
+	background-color: #0091ff;
+}
+#modal-candidat-informations-supplementaire .modal-content>img {
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	left: 47%;
+	top: -25px;
+}
+

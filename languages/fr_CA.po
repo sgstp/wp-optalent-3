@@ -1,0 +1,459 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: Baskerville\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-08 00:13+0000\n"
+"PO-Revision-Date: 2023-10-08 00:30+0000\n"
+"Last-Translator: \n"
+"Language-Team: Français du Canada\n"
+"Language: fr_CA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.8; wp-5.9"
+
+#: PageTemplateAccueil.php:113
+msgid "Nos candidats vedettes"
+msgstr ""
+
+#: PageTemplateAccueil.php:127
+msgid "Nouveaux postes"
+msgstr ""
+
+#: PageTemplateAccueil.php:149
+msgid "Postuler"
+msgstr ""
+
+#: PageTemplateAccueil.php:160 parts/details-emploi.php:93
+msgid "Voir tous les emplois"
+msgstr ""
+
+#: PageTemplateAccueil.php:166
+msgid "Restez informés"
+msgstr ""
+
+#: PageTemplateAccueil.php:167
+msgid "Abonnez-vous à nos infolettres"
+msgstr ""
+
+#: PageTemplateAccueil.php:172
+msgid "Candidat"
+msgstr ""
+
+#: PageTemplateAccueil.php:173
+msgid "Soyez les premiers à recevoir nos offres d’emplois"
+msgstr ""
+
+#: PageTemplateAccueil.php:174 PageTemplateAccueil.php:179
+msgid "M'abonner"
+msgstr ""
+
+#: PageTemplateAccueil.php:177
+msgid "Employeurs"
+msgstr ""
+
+#: PageTemplateAccueil.php:178
+msgid "Recevez en premier les nouveaux candidats vedettes"
+msgstr ""
+
+#: PageTemplateAccueil.php:189
+msgid "Nos clients"
+msgstr ""
+
+#: PageTemplateEmploisOfferts.php:8
+msgid "Filtrer par lieux"
+msgstr ""
+
+#: PageTemplateEmploisOfferts.php:9
+msgid "Filtrer par types d’emplois"
+msgstr ""
+
+#: PageTemplateEmploisOfferts.php:31
+msgid "Comblé"
+msgstr ""
+
+#: PageTemplateEmploisOfferts.php:96
+msgid "Poste"
+msgstr ""
+
+#: PageTemplateEmploisOfferts.php:97
+msgid "Type d'emploi"
+msgstr ""
+
+#: PageTemplateEmploisOfferts.php:98
+msgid "Lieu"
+msgstr ""
+
+#: PageTemplateEmploisOfferts.php:99 parts/details-emploi.php:60 single.php:173
+msgid "Salaire"
+msgstr ""
+
+#: PageTemplateEmployeur.php:45
+msgid "Découvrez nos candidats vedettes pré-qualifiés :"
+msgstr ""
+
+#: PageTemplateEmployeur.php:55
+msgid "Voir nos candidats vedettes"
+msgstr ""
+
+#: PageTemplateEmployeur.php:61
+msgid ""
+"Communiquez avec nous pour en savoir plus sur nos candidats en vedettes : "
+msgstr ""
+
+#: PageTemplateEmployeur.php:81
+msgid "Ce que nous offrons"
+msgstr ""
+
+#: PageTemplateEmployeur.php:87
+msgid "Éléments supplémentaires"
+msgstr ""
+
+#: comments.php:65
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:67
+msgid "Newer Comments"
+msgstr ""
+
+#: content-aside.php:7 content-audio.php:7 content-gallery.php:7
+#: content-image.php:1 content-image.php:7 content-link.php:7
+#: content-quote.php:7 content-status.php:7 content-video.php:7 content.php:7
+msgid "Sticky post"
+msgstr ""
+
+#: footer-.php:63
+#, php-format
+msgid "Powered by <a href=\"%s\">WordPress</a>"
+msgstr ""
+
+#: footer-.php:69
+#, php-format
+msgid "Theme by <a href=\"%s\">Anders Noren</a>"
+msgstr ""
+
+#: footer.php:5
+msgid "Contactez-nous maintenant"
+msgstr ""
+
+#: footer.php:6
+msgid "pour une évaluation de vos besoins"
+msgstr ""
+
+#: functions.php:142
+msgid "Footer A"
+msgstr ""
+
+#: functions.php:144
+msgid "Widgets in this area will be shown in the left column in the footer."
+msgstr ""
+
+#: functions.php:152
+msgid "Footer B"
+msgstr ""
+
+#: functions.php:154
+msgid "Widgets in this area will be shown in the middle column in the footer."
+msgstr ""
+
+#: functions.php:162
+msgid "Footer C"
+msgstr ""
+
+#: functions.php:164
+msgid "Widgets in this area will be shown in the right column in the footer."
+msgstr ""
+
+#: functions.php:172
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:174
+msgid "Widgets in this area will be shown in the sidebar."
+msgstr ""
+
+#: functions.php:288
+msgid "Continue Reading"
+msgstr "Continuer la lecture"
+
+#: functions.php:376 functions.php:411
+msgid "Archives"
+msgstr ""
+
+#: functions.php:394
+msgid "Category"
+msgstr "Catégories"
+
+#: functions.php:396
+msgid "Tag"
+msgstr ""
+
+#: functions.php:398
+msgid "Author"
+msgstr ""
+
+#: functions.php:400
+msgid "Year"
+msgstr ""
+
+#: functions.php:402
+msgid "Month"
+msgstr ""
+
+#: functions.php:404
+msgid "Day"
+msgstr ""
+
+#: functions.php:409
+msgid "Search"
+msgstr ""
+
+#: functions.php:489
+msgid "Pingback:"
+msgstr ""
+
+#: functions.php:489
+msgid "(Edit)"
+msgstr ""
+
+#: functions.php:515 functions.php:539
+msgid "Edit"
+msgstr ""
+
+#: functions.php:517 functions.php:541
+msgid "Reply"
+msgstr ""
+
+#: functions.php:574 functions.php:584
+msgid "Logo"
+msgstr ""
+
+#: index.php:15
+#, php-format
+msgid "Page %1$s of %2$s"
+msgstr ""
+
+#: index.php:17
+msgid "Search results"
+msgstr ""
+
+#: index.php:92
+msgid "Older posts"
+msgstr "Vieux"
+
+#: index.php:94
+msgid "Newer posts"
+msgstr "Récent"
+
+#: parts/candidats-vedettes.php:19
+msgid "En savoir plus"
+msgstr ""
+
+#: parts/candidats-vedettes.php:36
+msgid "est le/la recruteur(e) attitré(e) à ce dossier."
+msgstr ""
+
+#: parts/candidats-vedettes.php:37
+msgid ""
+"Il/elle communiquera avec vous rapidement afin de vous fournir l'information "
+"pertinente sur ce candidat ou cette candidate."
+msgstr ""
+
+#: parts/candidats-vedettes.php:44 parts/candidats-vedettes.php:45
+msgid "Votre nom"
+msgstr ""
+
+#: parts/candidats-vedettes.php:47 parts/candidats-vedettes.php:48
+msgid "Nom de la compagnie que vous représentez"
+msgstr ""
+
+#: parts/candidats-vedettes.php:50 parts/candidats-vedettes.php:51
+msgid "Votre courriel"
+msgstr ""
+
+#: parts/candidats-vedettes.php:53 parts/candidats-vedettes.php:54
+msgid "Votre numéro de téléphone"
+msgstr ""
+
+#: parts/candidats-vedettes.php:56 parts/candidats-vedettes.php:57
+msgid "Soumettre"
+msgstr ""
+
+#: parts/details-emploi.php:17
+msgid "Publié le"
+msgstr ""
+
+#: parts/details-emploi.php:22 single.php:150
+msgid "Postuler maintenant"
+msgstr ""
+
+#: parts/details-emploi.php:28
+msgid "Information"
+msgstr ""
+
+#: parts/details-emploi.php:40 single.php:153
+msgid "Industrie"
+msgstr ""
+
+#: parts/details-emploi.php:44 single.php:157
+msgid "Ville"
+msgstr ""
+
+#: parts/details-emploi.php:48 single.php:161
+msgid "Code postal"
+msgstr ""
+
+#: parts/details-emploi.php:52 single.php:165
+msgid "Province"
+msgstr ""
+
+#: parts/details-emploi.php:56 single.php:169
+msgid "Expérience requise"
+msgstr ""
+
+#: parts/details-emploi.php:73
+msgid "Description"
+msgstr ""
+
+#: widgets/dribbble-widget.php:10
+msgid "Displays your latest Dribbble photos."
+msgstr ""
+
+#: widgets/dribbble-widget.php:11
+msgid "Dribbble Widget"
+msgstr ""
+
+#: widgets/dribbble-widget.php:54
+#, php-format
+msgid "Follow %s on Dribbble"
+msgstr ""
+
+#: widgets/flickr-widget.php:11
+msgid "Displays your latest Flickr photos."
+msgstr ""
+
+#: widgets/flickr-widget.php:14
+msgid "Flickr Widget"
+msgstr ""
+
+#: 404.php:13
+msgid "Error 404"
+msgstr ""
+
+#: 404.php:19
+msgid ""
+"It seems like you have tried to open a page that doesn't exist. It could "
+"have been deleted, moved, or it never existed at all. You are welcome to "
+"search for what you are looking for with the form below."
+msgstr ""
+
+#: comments.php:25
+msgid "Add yours"
+msgstr ""
+
+#: comments.php:81
+msgid "Comments are closed."
+msgstr ""
+
+#: footer-.php:69
+msgid "Up"
+msgstr ""
+
+#: functions.php:529
+msgid "Awaiting moderation"
+msgstr ""
+
+#: header--.php:31 header-.php:25
+msgid "Skip to the content"
+msgstr ""
+
+#: header--.php:76 header-.php:119
+msgid "Toggle search field"
+msgstr ""
+
+#: image.php:43
+msgid "About the attachment"
+msgstr ""
+
+#: index.php:74
+msgid "No results. Try again, would you kindly?"
+msgstr ""
+
+#: searchform.php:9
+msgid "Search for:"
+msgstr ""
+
+#: sidebar.php:25
+msgid "Latest posts"
+msgstr ""
+
+#: sidebar.php:56
+msgid "Text widget"
+msgstr ""
+
+#: sidebar.php:60
+msgid ""
+"These widgets are displayed because you haven't added any widgets of your "
+"own yet. You can do so at Appearance > Widgets in the WordPress settings."
+msgstr ""
+
+#: template-archives.php:64
+msgid "Last 30 Posts"
+msgstr ""
+
+#: template-archives.php:84
+msgid "Archives by Categories"
+msgstr ""
+
+#: template-archives.php:96
+msgid "Archives by Tags"
+msgstr ""
+
+#: template-archives.php:112
+msgid "Contributors"
+msgstr ""
+
+#: template-archives.php:118
+msgid "Archives by Year"
+msgstr ""
+
+#: template-archives.php:124
+msgid "Archives by Month"
+msgstr ""
+
+#: template-archives.php:130
+msgid "Archives by Day"
+msgstr ""
+
+#: template-contributors.php:88
+msgid "Website"
+msgstr ""
+
+#: widgets/dribbble-widget.php:81 widgets/flickr-widget.php:65
+msgid "Title"
+msgstr ""
+
+#: widgets/dribbble-widget.php:87
+msgid "Dribbble username"
+msgstr ""
+
+#: widgets/dribbble-widget.php:93 widgets/flickr-widget.php:75
+msgid "Number of images to display:"
+msgstr ""
+
+#: widgets/flickr-widget.php:41
+msgid "More on Flickr"
+msgstr ""
+
+#: widgets/flickr-widget.php:70
+msgid ""
+"Flickr ID (use <a target=\"_blank\" href=\"http://www.idgettr.com\">"
+"idGettr</a>):"
+msgstr ""

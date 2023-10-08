@@ -1,82 +1,79 @@
-<?php if ( is_active_sidebar( 'footer-a' ) || is_active_sidebar( 'footer-b' ) || is_active_sidebar( 'footer-c' ) ) : ?>
-
-	<div class="footer section medium-padding bg-graphite">
-	
-		<div class="section-inner row">
-		
-			<?php if ( is_active_sidebar( 'footer-a' ) ) : ?>
-			
-				<div class="column column-1 one-third">
-				
-					<div class="widgets">
-			
-						<?php dynamic_sidebar( 'footer-a' ); ?>
-											
+		<div id="contactez-nous" class="container-fluid">
+			<div class="container">
+				<div class="row pt-5">
+					<div class="col">
+						<h2 class="titre"><?= __('Contactez-nous maintenant', 'optalent') ?></h2>
+						<h3><?= __('pour une évaluation de vos besoins', 'optalent') ?></h3>
 					</div>
-					
-				</div><!-- .column-1 -->
-				
-			<?php endif; ?>
-				
-			<?php if ( is_active_sidebar( 'footer-b' ) ) : ?>
-			
-				<div class="column column-2 one-third">
-				
-					<div class="widgets">
-			
-						<?php dynamic_sidebar( 'footer-b' ); ?>
-											
-					</div><!-- .widgets -->
-					
-				</div><!-- .column-2 -->
-				
-			<?php endif; ?>
-								
-			<?php if ( is_active_sidebar( 'footer-c' ) ) : ?>
-			
-				<div class="column column-3 one-third">
-			
-					<div class="widgets">
-			
-						<?php dynamic_sidebar( 'footer-c' ); ?>
-											
-					</div><!-- .widgets -->
-					
 				</div>
-				
-			<?php endif; ?><!-- .footer-c -->
-			
-			<div class="clear"></div>
-		
-		</div><!-- .section-inner -->
+				<div class="row coordonnees">
+					<div class="col separateur-droit">
+						<h4>1 866 798-9992<br />info@optalent.ca</h4>
+					</div>
+					<div class="col separateur-droit">
+						<h4>Montréal</h4>
+						<!-- 1370 Joliot-Curie #714<br />Boucherville, Québec<br />J4B 7L9 -->
+					</div>
+					<div class="col separateur-droit">
+						<h4>Québec</h4>
+						<!-- 5262, Wilfrid-Hamel #120<br /> Québec, Québec<br />G2E 2G9 -->
+					</div>
+					<div class="col separateur-droit">
+						<h4>Toronto</h4>
+						<!-- 2275 Lakeshore Blvd. West<br />5th floor #517<br />Etobicoke, Ontario<br />M8V 3Y3 -->
+					</div>
+					<div class="col">
+						<a class="facebook" href="https://www.facebook.com/optalent" target="_blank">
+							<span class="fa-stack fa-1x">
+								<i class="fas fa-square fa-stack-2x"></i>
+								<i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+							</span>
+						</a>
+						<span class="pr-2"></span>
+						<a class="linkedin" href="https://www.linkedin.com/company/optalent-job/" target="_blank">
+							<span class="fa-stack fa-1x">
+								<i class="fas fa-square fa-stack-2x"></i>
+								<i class="fab fa-linkedin-in fa-stack-1x fa-inverse"></i>
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
 
-	</div><!-- .footer -->
+<!--		<div id="pied" class="container-fluid">-->
+<!--			<div class="container">-->
+<!--				<div class="row">-->
+<!--					<div class="col menu-footer">-->
+<!--						--><?php //=
+//							wp_nav_menu([
+//								'theme_location' => 'bas',
+//								'container' => false
+//							]);
+//						?>
+<!--					</div>  -->
+<!--				</div>-->
+<!--				<br />-->
+<!--				<div class="row">-->
+<!--					<div class="col-6 col-lg-2">-->
+<!--						© OpTalent-->
+<!--					</div>-->
+<!--					<div class="col-6 col-lg-10">-->
+<!--						<!- Termes et conditions d’utilisation ->-->
+<!--					</div>-->
+<!--				</div>-->
+<!--			</div>-->
+<!--		</div>-->
 
-<?php endif; ?>
 
-<div class="credits section bg-dark small-padding">
-
-	<div class="credits-inner section-inner">
-
-		<p class="credits-left fleft">
-		
-			&copy; <?php echo date( 'Y' ) ?> <a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a><span> &mdash; <?php printf( __( 'Powered by <a href="%s">WordPress</a>', 'baskerville'), 'http://www.wordpress.org' ); ?></span>
-		
-		</p>
-		
-		<p class="credits-right fright">
-			
-			<span><?php printf( __( 'Theme by <a href="%s">Anders Noren</a>', 'baskerville' ), 'https://andersnoren.se' ); ?> &mdash; </span><a class="tothetop" href="#"><?php _e( 'Up', 'baskerville' ); ?> &uarr;</a>
-			
-		</p>
-		
-		<div class="clear"></div>
-	
-	</div><!-- .credits-inner -->
-	
-</div><!-- .credits -->
-
-<?php wp_footer(); ?>
-
-</body>
+		<?php wp_footer(); ?>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-156622481-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'UA-156622481-1');
+		</script>
+	</body>
 </html>
