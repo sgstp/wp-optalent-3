@@ -3218,6 +3218,11 @@ img#wpstats { display: none; } /* Silly WordPress stats */
 	font-weight: bold;
 }
 
+.navbar .logo-mobile {
+	max-width: 100%;
+	height: 35px;
+}
+
 body.page-template-PageTemplateAccueil,
 body.page-template-PageTemplateCandidat,
 body.page-template-PageTemplateElectricalTraining,

@@ -27,6 +27,7 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navBarTop" aria-controls="navBarTop" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
+    <img class="logo-mobile d-block d-lg-none" src="<?= get_template_directory_uri() ?>/images/logo-optalent-navbar-blanc.png">
     <div class="collapse navbar-collapse" id="navBarTop">
         <a class="navbar-brand" href="/">
             <?php
