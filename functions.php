@@ -1,7 +1,7 @@
 <?php
 
 require_once('ACF.php');
-require_once('BootstrapNavbarWalker.php');
+require_once('BootstrapNavBarWalker.php');
 
 /* ---------------------------------------------------------------------------------------------
    THEME SETUP
